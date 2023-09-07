@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    background-color: #000026;
+    justify-content: space-between;
+
+    padding: 16px 12px 16px 32px;
+}
+
+.logo-container {
+    width: 269px;
+    height: 25px;
+}
+
+.logo {
+    background-color: #000026;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.tab-group {
+    background-color: #000026;
+    border-bottom: 1px solid #4C4C4C;
+    padding-left: 80px;
+}
+

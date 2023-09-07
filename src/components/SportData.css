@@ -1,0 +1,34 @@
+.container {
+    background: url('../assets/IMG.png'), lightgray 0px 0px / 100% 100% no-repeat;
+    width: 100%;
+    height: 345px;
+    display: flex;
+}
+
+.left-content {
+    display: flex;
+    width: 480px;
+    min-width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 32px 80px;
+}
+
+.left-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    color: #FFFFFF;
+}
+
+.right-content {
+    display: flex;
+    width: 348px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /*border: 1px solid rgba(255, 255, 255, 0.25);*/
+}
